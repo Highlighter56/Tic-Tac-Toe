@@ -3,12 +3,17 @@ import java.util.Scanner;
 public class TicTacToe {
     public static void main(String[] args) {
 
+        // Initializes the Scanner
         Scanner sc = new Scanner(System.in);
 
-        // char a[][] = { {'_','_','_'},
-        //                {'_','_','_'},
-        //                {'_','_','_',} };
+        // Print Directions
+        System.out.println("");
+        System.out.println("Hi! You play by placing X's or O's in different");
+        System.out.println("boxes, trying to create a straight line across.");
+        System.out.println("For reference when selecting boxes, A'1' is the");
+        System.out.println("upper left, and 'C3' is the bottem right. Have Fun!");
 
+        
         char m[][] = { {' ',' ',' '},
                        {' ',' ',' '},
                        {' ',' ',' '} };
